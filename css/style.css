@@ -1,7 +1,8 @@
 
 body{
     box-sizing: border-box;
-    width: 100%;
+    width: 1200px;
+    /* width: 100%; */
     margin: 0 auto;
     /* background-color: rgb(212, 232, 247); */
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e4f5fc+0,bfe8f9+21,bfe8f9+60,9fd8ef+80,2ab0ed+100 */
@@ -104,18 +105,30 @@ ul li{
 .tel{
     float: left; 
     /* border: 1px solid black; */
-    font-size: 30px;
-    font-weight: bold;
+    font-size: 25px;
+    /* font-weight: bold; */
     margin: 12px 10px;
+}
+.tel a{
+    text-decoration: none;
+    /* border: 1px solid black; */
 }
 .icon1{
     height: 50px;
     float: left;
 }
+.icon2{
+    height: 50px;
+    float: left;
+    position: absolute;
+    top: 107px;
+    left: 0px;
+}
 .contact{
     width: 300px;
         /* border: 1px solid black; */
         height: 100px;
+        margin-right: 0;
 }
 h3{
     font-size: 28px;
